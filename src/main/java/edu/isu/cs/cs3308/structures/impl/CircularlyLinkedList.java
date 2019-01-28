@@ -65,7 +65,7 @@ public class CircularlyLinkedList<E> extends SinglyLinkedList<E> implements List
             return toRemove.getElement();
         }
     }
-
+//
     @Override
     public E removeLast() {
         return singlyLinkedList.removeLast();
